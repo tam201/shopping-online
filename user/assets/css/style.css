@@ -1,0 +1,491 @@
+body {
+    font-family: Tahoma;
+    font-size: 10px;
+    margin: 0px auto;
+    text-align: center;
+    color: black;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Header */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 799px;
+    font-size: 20px;
+    color:black;
+}
+
+a:link,
+a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+/* .stt .ten .hinhAnh .product-delete .number .gia .tong-tien td{
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 28px;
+} */
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px;
+    background: #919191;
+    height: 56px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 28px;
+}
+
+.menu li:last-of-type {
+    margin-right: 0;
+}
+
+.features-menu {
+    display: flex;
+    flex-direction: column;
+    background:#4b84c5;
+    border-radius: 5px;
+    padding-top: 60px;
+    position: absolute;
+    top: -25px;
+    left: -30px;
+    z-index: 1;
+}
+.banner{
+    
+        margin-top: 69px;
+    
+}
+
+
+.features-menu li {
+    list-style: none;
+    border-bottom: 1px solid #FFF;
+    padding: 0 40px 10px 40px;
+    margin: 10px;
+}
+
+.features-menu li:last-of-type {
+    border-bottom: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown span {
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+}
+
+.header ul li .features-menu {
+    display: none;
+}
+
+.header>ul>li:hover>.features-menu {
+    display: block;
+}
+
+/* label {
+    position: relative;
+    top: -25px;
+} */
+
+.logo {
+    width: 180px;
+    height: 180px;
+}
+.header .logo a img{
+    width: 251px;
+    margin-left: 38px;
+}
+.fa-cart-plus:before {
+    content: "\f217";
+    margin-right: 31px;
+}
+ul.menu li .dropdown1 a{
+    margin-left:-32px ;
+}
+/* footer */
+.nguoi-quan-ly1 {
+    float: left;
+}
+
+.nguoi-quan-ly2 {
+    float: left;
+    margin-left: 174px;
+}
+
+.thong-tin-dia-chi {
+    margin-left: 778px;
+}
+
+#footer {
+    background-color: white;
+    display: block;
+    height: 400px;
+    /* margin-top: 47px; */
+    /* margin-top: 100%; */
+}
+
+hr {
+    background-color: white;
+    border: 1px solid dimgrey;
+}
+
+.tt {
+    width: 1349px;
+    height: 80px;
+    background-color: silver;
+    position: relative;
+    /* margin-top: 100%; */
+}
+
+.tt li {
+    list-style: none;
+    margin-left: 30px;
+
+}
+
+.tt li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-top: 28px;
+    float: left;
+
+}
+/* chi-tiet-sp */
+
+/* index */
+.item {
+    width: 294px;
+    text-align: center;
+    margin: 3px;
+    /* border: 1px solid; */
+    height: 410px;
+    margin-left: 32px;
+    /* position: absolute; */
+    /* order: -3; */
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.button {
+    width: 169px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #45a049;
+    color: white;
+    text-align: center;
+}
+
+.button:hover {
+    font-size: 15px;
+}
+
+button {
+    width: 104px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top:20px ;
+}
+
+button:hover {
+    font-size: 15px;
+}
+
+.row {
+    width: 100%;
+    /* height: 100%; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 33px;
+}
+
+.btn {
+    background: #2b89c8;
+    color: white !important;
+    padding: 20px 10px;
+    display: inline-block;
+    border-radius: 20px;
+    cursor: pointer;
+    line-height: 0px;
+
+}
+
+.btn:hover {
+    background-color: #46a7e8;
+}
+
+ul {
+    list-style: none;
+    float: initial;
+}
+
+ul li {
+    display: inline-block;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 21px;
+    font-family: -webkit-body;
+
+}
+
+.banner img {
+   width: 100%;
+    height: 518px;
+    float: left;
+    margin-top: -17px;
+} 
+/* dang nhap */
+#main {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+.login {
+    width: 400px;
+    height: 387px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    /* float: right; */
+    padding: 20px;
+    margin: 50px;
+    padding-left: 34px;
+    margin-left: 491px;
+}
+
+.error {
+    color: red;
+}
+
+h2 {
+    color: id="868787";
+    font-family: sans-serif;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 20px;
+}
+
+
+
+
+
+.check input {
+    width: 10px;
+    height: 10px
+}
+
+#main #left ul {
+    list-style: none;
+    float: left;
+}
+
+#main #left ul li {
+    display: block;
+}
+
+#main #left ul li a {
+    text-decoration: none;
+    font-size: 165px;
+    /* text-align: center; */
+    color: #EF0521;
+    display: table-caption;
+    padding: 0px;
+    margin: 3px;
+    padding-left: 96px;
+}
+/* dang ky */
+.error {
+    color: red;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: black;
+    margin-top: 145 px;
+}
+
+
+
+.gioitinh input {
+
+    width: 15px;
+    height: 15px;
+    margin-left: 75px;
+    
+}
+
+.dangky {
+    width: 470px;
+    height: 580px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: right;
+    /* float: right; */
+    margin-left: 100px;
+    margin-top: 50px;
+    background-image: url(../user/img/4.jpg);
+    color: black;
+}
+#right{
+    margin-left: 19px;
+    margin-top: 100px;
+}
+/* gio hang */
+.cart {
+    width: 1100px;
+    margin: 79px auto;
+    /* border: 1px solid black; */
+    padding: 15px;
+    height: 100%px;
+}
+
+/* td {
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 28px
+}
+
+th {
+    margin: 0 auto;
+    /* border: 1px solid black; */
+/* padding: 15px */
+/* } */
+
+*/ .money {
+    width: 100px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+#form-button input {
+    margin-left: 800px;
+}
+
+
+
+hr {
+    color: #eee;
+}
+
+.dat-hang {
+    margin-left: -644px;
+
+}
+
+.number {
+    width: 100px;
+}
+
+#cart-form input {
+    line-height: 30px;
+    height: 30px;
+}
+
+#cart-form td .hinhAnh img {
+    width: 158px;
+    height: 60px;
+
+}
+
+table tbody {
+    margin-left: 11px;
+    margin-top: -95px;
+}
+
+.hinhAnh {
+    width: 200px;
+}
+
+.gia {
+    width: 100px;
+}
+
+.product-delete {
+    width: 100px;
+}
+
+.ten {
+    width: 200px;
+}
+.button{
+    width: 169px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #45a049;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    /* margin-right: 5px; */
+}
+.button1{
+    width: 130px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 500px;
+}
+#main1 .row {
+    width: 100%;
+    /* height: 100%; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 41px;
+}
